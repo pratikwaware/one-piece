@@ -16,13 +16,13 @@ function OnePiece() {
         </main>
 
         <footer className="flex h-24 w-full items-center justify-center border-t">
-            <a
+            <p
                 className="flex items-center justify-center gap-2"
                 rel="noopener noreferrer"
             >
                 Powered by 
-                <a className="text-blue-600 font-bold"> PROWAVE </a>
-            </a>
+            </p>
+            <p className="text-blue-600 font-bold px-1"> PROWAVE </p>
         </footer>
     </div>
     </div>
