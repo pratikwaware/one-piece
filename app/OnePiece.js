@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
-import Dropdown from './Dropdown'
+import Dropdown from './components/dropdown/Dropdown'
+import Counter from './components/counter/page'
 
 function OnePiece() {
   return (
@@ -13,6 +14,7 @@ function OnePiece() {
 
         <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
             <Dropdown />
+            <Counter />
         </main>
 
         <footer className="flex h-24 w-full items-center justify-center border-t">
