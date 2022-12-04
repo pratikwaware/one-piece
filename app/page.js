@@ -2,13 +2,17 @@
 import React from 'react'
 import '../styles/globals.css'
 import OnePiece from './OnePiece'
+import { store } from './redux/store'
+import { Provider } from 'react-redux'
 
 const page = () => {
     
   return (
-    <div>
-        <OnePiece />
-    </div>
+    <Provider store={store}>
+      <div>
+          <OnePiece />
+      </div>
+    </Provider>
   )
 }
 
