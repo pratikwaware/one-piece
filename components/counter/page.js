@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { decrement, increment, setValue7, setValue5, resetCounter } from '../../../reduxReducers/counterSlice'
+import { decrement, increment, setValue7, setValue5, resetCounter } from '../../reduxReducers/counterSlice'
 
 const Counter = () => {
   // with the hep pf useDispatch we can update the redux functions defined in reducer file
