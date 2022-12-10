@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
-import Dropdown from './components/dropdown/Dropdown'
-import Counter from './components/counter/page'
+import Dropdown from '../components/dropdown/Dropdown'
+import Counter from '../components/counter/page'
 
 function OnePiece() {
   return (
